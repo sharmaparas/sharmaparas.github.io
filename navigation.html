@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<!-- Themes from https://themeroller.jquerymobile.com/ -->
+<link rel="stylesheet" href="themes/theme.css" />
+<link rel="stylesheet" href="themes/theme.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<!-- Title -->
+<meta charset="utf-8">
+<!--Title of the project-->
+<title>Assignment 1</title>
+</head>
+
+<body>
+<section id="page5" data-role="page" data-theme="d">
+<header data-role="header">
+  <h1>Little India</h1>
+</header>
+<!-- back button to get back to first page --> 
+<a href="restaurant.html">Back</a>
+<center>
+  <b>Navigation</b>
+</center>
+<br>
+<div data-role="content" class="ui-body-d">
+  <form action="http://maps.google.com/maps" method="get" target="_blank">
+    <label for="saddr">Get directions to our restaurant at <b>Bldg HC, 221 Burwood Hwy, Burwood VIC 3125, Australia</b></label>
+    <input type="hidden" name="saddr" value="my location"/>
+    <input type="hidden" name="daddr" value="Bldg HC, 221 Burwood Hwy, Burwood VIC 3125, Australia" />
+    <input type="submit" value="Get directions" />
+  </form>
+</div>
+<br>
+<br>
+<div data-role="content" class="content">
+  <div data-role="listview" class="ui-body-d"> <b>References</b> <br>
+    >> Css Tricks, Get Directions form(Google Maps), https://css-tricks.com/snippets/html/get-directions-form-google-maps/ </div>
+</div>
+<footer data-role="footer">
+  <h1> &copy; Paras Sharma 214213564 </h1>
+</footer>
+</body>
+</html>
